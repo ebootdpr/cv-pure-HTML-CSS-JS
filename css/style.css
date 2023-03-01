@@ -6,15 +6,21 @@ body {
     padding: calc(1vh + 1vw);
     border: solid calc(1vh + 1vw) teal;
     text-align: left;
+      
 }
 
 body > * {
 background-color: #151815;
 }
-h1,h2,p {
+h1,h2{
   margin: 1vw;
-
+  font-family: 'Arima Madurai', cursive;
 }
+
+p {
+  margin: 1.1vw;
+}
+
 .glowing {
   color: #fff;
   text-align: left;
@@ -25,6 +31,7 @@ article :hover {
   transition: 0.2s;
   transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
   animation: glow .2s ease-in-out infinite alternate;
+
 }
 article > h2 :hover {
   margin-left: 1vw;

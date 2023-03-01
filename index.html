@@ -37,16 +37,26 @@
             </aside>
 
         </header>
-
         <hr>
-        <article>
+        <details id="indice">
+            <summary><strong>INDICE DE CONTENIDOS:</strong></summary>
+            <a href="#resumen">Resumen profesional</a><br>
+            <a href="#skills">Habilidades técnicas</a><br>
+            <a href="#experiencia">Experiencia laboral</a><br>
+            <a href="#eduacion">Educacion</a><br>
+            <a href="#proyectos">Proyectos destacados</a>           
+            
+        </details>
+        <hr>
+
+        <article id="resumen">
             <h2>Resumen profesional</h2>
             <p>Un desarrollador web altamente motivado y orientado a resultados con experiencia en la creación de sitios
                 web y aplicaciones interactivas. Fuerte capacidad de análisis, atención al detalle y capacidad de
                 resolución de problemas. Buscando una posición desafiante en la que pueda utilizar sus habilidades
                 técnicas y creativas para desarrollar soluciones innovadoras.</p>
         </article>
-        <aside class="aside2">
+        <aside id="skills" class="aside2">
             <article>
                 <h2>Habilidades técnicas</h2>
                 <ul>
@@ -57,7 +67,7 @@
                 </ul>
             </article>
         </aside>
-        <article>
+        <article id="experiencia">
             <h2>Experiencia laboral</h2>
             <h2>Acme Inc., Ciudad de México
                 Desarrollador web, mayo de 2021 - presente</h2>
@@ -80,14 +90,14 @@
             </ul>
         </article>
 
-        <article>
+        <article id="eduacion">
             <h2>Educación</h2>
             <p>Universidad Nacional Autónoma de México, Ciudad de México
                 Licenciatura en Ingeniería en Sistemas, agosto de 2014 - mayo de 2019</p>
 
         </article>
 
-        <article>
+        <article id="proyectos">
             <h2>Proyectos destacados:</h2>
             <p>Universidad Nacional Autónoma de México, Ciudad de México
                 Licenciatura en Ingeniería en Sistemas, agosto de 2014 - mayo de 2019</p>
@@ -99,6 +109,10 @@
                     con una interfaz de usuario fácil de usar y un sistema de carrito de compras completo.</li>
             </ul>
             <h2>Game of life pero con físicas intentado simular asteroides</h2>
+            <ul>
+                <li>Utiliza canvas y javascript</li>
+                <li>Data Oriented Design: recorre un array de posiciones y las actualizas con un sistema de colisiones</li>
+            </ul>
             <canvas id="life"></canvas>
         </article>
 
